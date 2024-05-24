@@ -1849,6 +1849,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Mobile - Flappy Bird - Version 12 Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 432
+        width: 96
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5186885, y: 0.49050757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a47bdef1e6b42a4686fa864a8bdee87
+      internalID: -1227989699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1940,6 +1961,7 @@ TextureImporter:
       Mobile - Flappy Bird - Version 12 Sprites_79: 451508256
       Mobile - Flappy Bird - Version 12 Sprites_8: 788651505
       Mobile - Flappy Bird - Version 12 Sprites_80: 114729342
+      Mobile - Flappy Bird - Version 12 Sprites_81: -1227989699
       Mobile - Flappy Bird - Version 12 Sprites_9: 1369204992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
