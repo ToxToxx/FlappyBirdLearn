@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 public class FlyBehavior : MonoBehaviour
 {
     [SerializeField] private float _velocity = 1.5f;
-    [SerializeField] private float _rotationSpeed = 10f; = 
+    [SerializeField] private float _rotationSpeed = 10f; 
 
     private Rigidbody2D _birdRb;
 
