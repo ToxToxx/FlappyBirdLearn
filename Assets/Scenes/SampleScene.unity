@@ -1143,6 +1143,7 @@ GameObject:
   - component: {fileID: 1027488376}
   - component: {fileID: 1027488375}
   - component: {fileID: 1027488374}
+  - component: {fileID: 1027488377}
   m_Layer: 0
   m_Name: ScoreCanvas
   m_TagString: Untagged
@@ -1236,6 +1237,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1027488377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027488372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa706decfc402e34a84db9419f659d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentScoreText: {fileID: 1927543759}
+  _highestScoreText: {fileID: 1768446600}
 --- !u!1 &1188589078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,7 +1908,7 @@ GameObject:
   - component: {fileID: 1768446601}
   - component: {fileID: 1768446600}
   m_Layer: 0
-  m_Name: HighestScoreText
+  m_Name: HighestScoreNumberText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2061,7 +2076,7 @@ GameObject:
   - component: {fileID: 1927543760}
   - component: {fileID: 1927543759}
   m_Layer: 0
-  m_Name: CurrentScoreText
+  m_Name: CurrentScoreNumberText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
